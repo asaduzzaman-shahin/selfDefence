@@ -1,0 +1,1055 @@
+
+/* 
+@media screen and (min-width: 1201px) and (max-width: 1900px) {
+
+    .customContainer {
+        width: 90%;
+        margin: auto;
+        
+    }
+	
+} */
+
+
+
+
+
+
+/* FOR-LG-START */
+@media screen and (mex-width: 1400px) {
+    .wbt-img img {
+        border-radius: 20px;
+        width: 90%;
+        width: fit-content;
+        margin-top: 4rem;
+        width: 90%;
+    }
+
+	.bj-area {
+        padding: 36px 0;
+    }
+
+    .bj-inner-cnt h3 {
+        font-size: 22px;
+    }
+
+    .bj-btm p {
+        font-size: 22px;
+    }
+
+    .gn-top h2 {
+        font-size: 24px;
+    }
+
+    .gray-news-area {
+        padding-bottom: 108px;
+    }
+
+    .wbt-area {
+        padding: 100px 0 0;
+    }
+
+    .wbt-title h2 {
+        font-size: 31px;
+    }
+
+    .wbt-img {
+        padding-top: 50px;
+        padding-right: 20px;
+    }
+
+    .shape1 img {
+        height: 130px;
+    }
+
+    .gn-btm2 {
+        padding-top: 70px;
+        padding-bottom: 95px;
+    }
+
+    .trob-img {
+        width: 30%;
+    }
+
+    .step-area {
+        grid-gap: 20px;
+        padding-bottom: 120px;
+    }
+
+    .step-cnt-wrapper p {
+        font-size: 21px;
+    }
+
+    .gn-btm p {
+        font-size: 26px;
+    }
+
+    .opty-right p {
+        font-size: 20px;
+        margin: 0 0 65px;
+        padding-left: 20px;
+    }
+
+    .gn-btm3 h2 {
+        font-size: 44px;
+    }
+
+    .rltas-slider-top p {
+        font-size: 18px;
+    }
+
+    .bojj-title h2 {
+        font-size: 37px;
+    }
+
+    .bojj-left p {
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    .gbo-area .bojj-title h2 {
+        font-size: 27px;
+    }
+
+    .bojj-main-img p {
+        font-size: 22px;
+    }
+
+    .gn-btm3 {
+        padding-bottom: 30px;
+    }
+
+    .gbo-cnt a {
+        padding: 6px 40px;
+    }
+
+    .gbo-cnt2 a {
+        padding: 20px 70px;
+    }
+
+    .gbo-cnt p {
+        font-size: 22px;
+    }
+
+    .f-input input {
+        font-size: 16px;
+    }
+
+
+
+	
+
+	
+} 
+
+/*FOR-TABLATE-START*/
+@media screen and (max-width: 992px) {
+
+ 
+
+    .wbt-right p {
+        font-size: 19px;
+        margin: 0 0 9px;
+    }
+
+    .wbt-img {
+        padding-top: 50px;
+        padding-right: 20px;
+    }
+
+    .gn-main-wrapper {
+        grid-gap: 25px;
+        padding-bottom: 100px;
+    }
+
+    .bj-area {
+        padding: 36px 0px;
+    }
+
+    .bj-inner-wrapper {
+        grid-gap: 15px;
+    }
+
+    .bj-inner-cnt h3 {
+        font-size: 20px;
+        margin-left: 4px;
+    }
+
+    .banner {
+        position: relative;
+        /* margin-top: -50px; */
+        z-index: -1;
+    }
+
+    .bj-title h2 {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    .bj-title h2 span {
+        font-size: 25px;
+    }
+
+    .gn-top h2 {
+        font-size: 28px;
+        padding: 17px;
+    }
+
+    .gn-btm h2 {
+        font-size: 36px;
+    }
+
+    .gn-btm p {
+        font-size: 25px;
+        padding-right: 0;
+    }
+
+    .gray-news-area {
+        padding-bottom: 100px;
+    }
+
+    .wbt-area {
+        padding: 80px 0 0;
+    }
+
+    .gn-btm h2 img {
+        margin-top: -41px;
+    }
+
+    .shape1 img {
+        height: 100px;
+    }
+
+    .wits-cnt h3 {
+        font-size: 22px;
+    }
+
+    .wits-cnt h4 {
+        font-size: 29px;
+    }
+
+    .wits-btm h2 {
+        font-size: 26px;
+    }
+
+    .wits-btm h2 img {
+        width: 80px;
+    }
+
+    .wits-cnt h5 {
+        font-size: 35px;
+    }
+
+    .trob-img {
+        width: 30%;
+    }
+
+    .rltas-slider-top p {
+        font-size: 19px;
+    }
+
+    .os-right {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .step-area {
+        grid-gap: 10px;
+        padding-bottom: 60px;
+    }
+
+    .step-cnt-wrapper p {
+        font-size: 18px;
+    }
+
+    .form-wrapper {
+        grid-gap: 20px;
+    }
+
+    .form-title h2 {
+        font-size: 28px;
+    }
+
+    .opty-area {
+        padding: 50px 0 65px;
+    }
+
+    .opty-right p {
+        font-size: 20px;
+        margin: 0 0 30px;
+        padding-left: 20px;
+    }
+
+    .bojj-title h2 {
+        font-size: 27px;
+    }
+
+    .bojj-left p {
+        font-size: 16px;
+        padding-right: 20px;
+    }
+
+    .bojj-main-img p {
+        font-size: 21px;
+    }
+
+    .bojj-main-img h3 {
+        font-size: 50px;
+        margin: 0 0 55px;
+    }
+
+    .gn-btm3 {
+        padding-bottom: 15px;
+    }
+
+    .gbo-area .bojj-title h2 {
+        font-size: 26px;
+    }
+
+    .gbo-inner {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 80px;
+    }
+
+    .gbo-cnt p {
+        height: 126px;
+    }
+
+    .footer-area a {
+        font-size: 19px;
+    }
+
+    .social-links ul li {
+        font-size: 24px;
+        padding: 0 7px;
+    }
+
+    .titleHide{
+        display: none;
+    }
+
+    .titleShow{
+        display: block;
+    }
+
+	
+
+}
+
+/*FOR-MOBIL-START*/
+@media screen and (max-width: 768px) {
+
+    .bj-inner-cnt {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .menuHide{
+        display: none!important;
+    }
+
+    .hamerBurg {
+        color: white;
+        font-size: 30px;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        z-index: 99999999999;
+        top: 5px;
+    }
+    .menu ul li {
+        width: -webkit-fill-available;
+    }
+    .menu {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        z-index: 999999;
+        background: transparent;
+        background: black;
+        /* height: 50vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10px;
+        height: 60vh;
+    }
+
+    .menu ul li a {
+        font-family: arial-black,sans-serif;
+        font-size: 16px;
+        color: #C8C8C8;
+        padding: 3px 5px;
+        width: 110px;
+        display: inline-block;
+        text-align: center;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .titleHide{
+        display: none;
+    }
+
+    .titleShow{
+        display: block;
+    }
+
+    /* .logo img {
+        max-width: 150px;
+    } */
+    .displayNone{
+        display: none;
+    }
+    .mobileBanner{
+        display: block!important;
+        margin-top: 125px;
+        height: 88vh !important;
+    }
+    .banner {
+        width: 100vw;
+        height: 100vh;
+        background: #373737;
+    }
+
+    .logo img {
+        max-width: 70px;
+    }
+    .gbo-cnt.text-center{
+       
+            text-align: center !important;
+            width: 250px;
+            margin: auto;
+        
+    }
+
+
+    .logo a span {
+        font-size: 12px;
+    }
+
+    .call-btn a {
+        font-size: 12px;
+    }
+  
+
+
+
+    .banner {
+        /* margin-top: 0; */
+        z-index: 1;
+    }
+
+    .header-area {
+        padding: 12px 0 0;
+    }
+
+    .bj-title h2 {
+        font-size: 26px;
+        line-height: 40px;
+        margin: 0 0 35px;
+        line-height: 2rem;
+    }
+
+    .bj-area {
+        padding: 36px 0;
+    }
+
+    .bj-title h2 span {
+        font-size: 16px;
+    }
+
+    .bj-inner-wrapper {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 25px;
+    }
+
+    /* .bj-inner-cnt {
+        display: flex;
+        justify-content: flex-start;
+    } */
+
+    .bj-inner-cnt h3 {
+        font-size: 25px;
+    }
+
+    .red-line {
+        padding-top: 35px;
+    }
+
+    .bj-btm {
+        padding: 40px 0 30px;
+    }
+
+    /* .bj-btm p {
+        font-size: 20px;
+        line-height: 32px;
+    } */
+
+    .gn-top h2 {
+        font-size: 19px;
+        padding: 12px;
+        border-radius: 6px;
+    }
+
+    .gn-main-wrapper {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 45px;
+        padding-bottom: 50px;
+    }
+
+    .gn-top {
+        padding-bottom: 40px;
+    }
+
+    .gn-btm h2 {
+        font-size: 30px;
+    }
+
+    .gn-btm p {
+        font-size: 25px;
+        padding-right: 0px;
+    }
+
+    .gn-btm h2 img {
+        margin-top: -25px;
+    }
+
+    .gray-news-area {
+        padding-bottom: 50px;
+    }
+
+    .wbt-area {
+        padding: 60px 0 0;
+    }
+
+            
+    .wbt-title h2 {
+        font-size: 23px;
+    }
+
+    .h2-border {
+        width: 300px;
+    }
+
+    .wbt-right p {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: justify;
+        color: #fff;
+        margin: 20px 0;
+    }
+
+    .gn-btm2 {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    .gn-btm2 h2 {
+        font-size: 28px;
+    }
+
+    .shape1 img {
+        height: 50px;
+    }
+
+    .wits-cnt h3 {
+        font-size: 17px;
+    }
+
+    .wits-cnt h4 {
+        font-size: 25px;
+        margin: 0 0 20px;
+    }
+
+    .wits-cnt h5 {
+        font-size: 28px;
+    }
+
+    .wits-btm {
+        padding: 20px 10px;
+    }
+
+    .wits-btm h2 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .wits-btm h2 img {
+        width: 50px;
+    }
+
+    .trob-top p {
+        font-size: 19px;
+        margin-top: 0;
+    }
+
+    .trob-top h3 {
+        font-size: 23px;
+        margin: 25px 0 50px;
+    }
+
+    .trob-img {
+        width: 30%;
+    }
+
+    .trob-right p {
+        font-size: 16px;
+    }
+
+    .trob-cnt {
+        padding-bottom: 40px;
+    }
+
+    .trob-btm p {
+        font-size: 17px;
+    }
+
+    .main-btn2 {
+        padding-top: 50px;
+        margin-bottom: -50px;
+    }
+
+    .main-btn-b {
+        bottom: 10px;
+    }
+
+    .main-btn-b img {
+        max-width: 150px;
+    }
+
+    .shape2 img {
+        height: 94px;
+    }
+
+    .wits-area2 .wits-cnt2 h4 {
+        font-size: 24px;
+        margin: 34px 0;
+    }
+
+    .wits-area2 .wits-cnt2 h2 {
+        font-size: 26px;
+    }
+
+    .gp-btm {
+        padding: 40px 0;
+    }
+
+    .main-btn img {
+        max-width: 220px;
+    }
+
+    .os-area {
+        padding: 10px 0 0;
+    }
+
+    .os-main {
+        border: 2px solid #00FF5D;
+        padding: 35px 10px 40px 10px;
+    }
+
+    .os-left h2 {
+        font-size: 36px;
+    }
+
+    .os-left h3 {
+        font-size: 25px;
+        margin: 16px 0;
+    }
+
+    .os-left a {
+        font-size: 18px;
+        padding: 8px 50px;
+    }
+
+    .os-right {
+        padding-top: 40px;
+        margin: auto;
+    text-align: center;
+    }
+
+    .csd-top p {
+        font-size: 20px;
+        margin: 0 0 30px;
+    }
+
+    .step-area {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 40px;
+        padding-bottom: 50px;
+    }
+
+    .step-cnt-wrapper h4 {
+        min-height: 90px;
+    }
+
+    .step-cnt-wrapper p {
+        font-size: 22px;
+        min-height: initial;
+    }
+
+    .step-img {
+        padding: 30px 0;
+    }
+
+    .gn-btm h2 {
+        font-size: 26px;
+    }
+
+    .gn-btm p {
+        font-size: 16px;
+        padding-right: 0px;
+        padding-top: 15px;
+    }
+
+    .gn-btm3 {
+        padding-bottom: 45px;
+    }
+
+    .csd-area {
+        padding-bottom: 45px;
+    }
+
+    .form-title h3 {
+        font-size: 23px;
+    }
+
+    .form-title h2 {
+        font-size: 22px;
+    }
+
+    .form-wrapper {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+        padding-top: 20px;
+    }
+
+    .submit-btn input {
+        font-size: 20px;
+    }
+
+    .opty-area {
+        padding: 50px 0 40px;
+    }
+
+    .opty-title h2 {
+        font-size: 31px;
+    }
+
+    .opty-title p {
+        font-size: 21px;
+    }
+
+    .opty-cnt-wrapper {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .opty-img {
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .opty-right {
+        width: 100%;
+    }
+
+    .opty-right p {
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+
+    .opty-p-2 {
+        margin-top: 0px !important;
+    }
+
+    .rltas-top h3 {
+        font-size: 21px;
+        padding: 0 0 35px;
+    }
+
+    .rltas-slider-top p {
+        font-size: 19px;
+    }
+    
+    .bojj-title h2 {
+        font-size: 20px;
+        padding: 15px 20px;
+        margin: 0 0 40px;
+    }
+    .wits-btm h2 img {
+        margin-top: -15px;
+    }
+
+    .bojj-left {
+        width: 100%;
+    }
+
+    .bojj-img {
+        width: 100%;
+        padding-bottom: 20px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .bojj-left p {
+        font-size: 19px;
+        margin: 0 0 14px;
+    }
+    .rltas-slider {
+        padding-bottom: 40px;
+    }
+
+    .bojj-img2 {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .bojj-img4 {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .bojj-img3 {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .bojj-main-img img {
+        padding: 20px 0;
+    }
+
+    .bojj-main-img p {
+        font-size: 18px;
+    }
+
+    .bojj-main-img h4 {
+        font-size: 23px;
+    }
+
+    .bojj-main-img h3 {
+        font-size: 30px;
+        margin: 0 0 35px;
+    }
+
+    .gbo-area {
+        padding: 10px 0 50px;
+    }
+
+    .gbo-area .bojj-title h2 {
+        font-size: 18px;
+    }
+
+    .gbo-inner {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+    }
+
+    .gbo-cnt p {
+        font-size: 22px;
+        margin: 20px 0 0;
+        height: 120px;
+    }
+
+    .f-logo {
+        text-align: center;
+    }
+
+    .footer-area a {
+        font-size: 18px;
+    }
+
+    .footer-right {
+        padding-top: 30px;
+    }
+
+    .footer-title h3 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .footer-right h3 {
+        font-size: 20px;
+    }
+
+    .social-links ul li {
+        font-size: 19px;
+    }
+
+
+    .defenceWrapper {
+        display: flex;
+        display: flex;
+        gap: 10%;
+        flex-direction: column-reverse;
+    }
+    .defenceExpand {
+        width: 100%;
+        text-align: justify;
+    }
+    .bj-title h2 {
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media (max-width:550px){
+  
+    .h2-border {
+        width: 100%;
+    }
+
+    .mobileBanner {
+        display: block!important;
+    height: 90vh !important;
+    position: absolute;
+    top: -57px;
+    }
+ 
+
+    .gbo-cnt2 a {
+        /* padding: 20px 120px; */
+        margin-top: 4rem;
+        padding: 6px 70px;
+    }
+    .main-btn a img {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .logo a span {
+        font-size: 12px;
+    }
+
+    .call-btn a {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 540px){
+    .mobileBanner {
+        display: block!important;
+        height: 83vh !important;
+        position: absolute;
+        top: 0px;
+    }
+    }
+
+
+@media (max-width:433px){
+    .logo img {
+        max-width: 70px;
+    }
+
+    .logo a span {
+        font-size: 12px;
+    }
+
+    .call-btn a {
+        font-size: 12px;
+        font-weight: 600;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        padding: 0px 5px;
+        border-radius: 3px;
+        background-color: #F9530B;
+        width: 116px;
+        height: 36px;
+        border: 0.7px solid white;
+    }
+
+}
+
+@media (max-width: 414px){
+.mobileBanner {
+    display: block!important;
+    height: 84vh !important;
+    position: absolute;
+    top: 0px;
+}
+.bj-inner-cnt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+}
+}
+@media (max-width: 375px){
+
+    .mobileBanner {
+        display: block!important;
+        height: 83vh !important;
+        position: absolute;
+        top: 0px;
+    }
+}
+
+
+
+
+@media (max-width: 360px){
+    .mobileBanner {
+        display: block!important;
+        height: 81vh !important;
+        position: absolute;
+        top: 0;
+    }
+    }
+		         
+@media (max-width: 320px){
+        .mobileBanner {
+            display: block!important;
+            height: 78vh !important;
+            position: absolute;
+            top: 0;
+        }
+        }
+
+@media (max-width: 280px){
+
+.mobileBanner {
+    display: block!important;
+    height: 92vh !important;
+    position: absolute;
+    top: -10px;
+}
+.logo img {
+    max-width: 60px;
+}
+.logo a span {
+    font-size: 10px;
+    display: none;
+}
+.call-btn a {
+    font-size: 10px;
+    width: 105px;
+}
+.bj-area {
+    padding: 100px 0;
+}
+}
+
