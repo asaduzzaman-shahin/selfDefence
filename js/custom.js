@@ -1,6 +1,7 @@
 
 
 
+
 // collapse text
 
 // var morelessBtn = document.querySelectorAll(".morelessBtn")
@@ -74,26 +75,11 @@ const menuShow = () => {
 navIcons.addEventListener("click", menuShow);
 
 
-// var readmore = document.querySelector(".readMoreBtn");
-// var titleShow = document.querySelector(".titleShow");
-// var titleHide = document.querySelector(".titleHide");
-
-// readmore.addEventListener("click", function(){
-// 	titleShow.style.display="block";
-// 	titleHide.style.display="none";
-// 	console.log("done");
-	
-// })
 
 
+//Scroll back to top
 
-
-
-
-
-// Scroll back to top
-
-// (function($) { "use strict";
+(function($) { "use strict";
 
 	$(document).ready(function(){"use strict";
 		
@@ -129,34 +115,34 @@ navIcons.addEventListener("click", menuShow);
 	});
 
 
-	// $("#owl-csel1").owlCarousel({
-	// 	items: 4,
-	// 	autoplay: false,
-	// 	autoplayTimeout: 3000,
-	// 	startPosition: 0,
-	// 	rtl: false,
-	// 	loop: true,
-	// 	margin: 15,
-	// 	dots: true,
-	// 	nav: true,
-	// 	navText: [
-	// 				'<i class="fa fa-angle-left" aria-hidden="true"></i>',
-	// 				'<i class="fa fa-angle-right" aria-hidden="true"></i>'
-	// 			],
-	// 	navContainer: '.main-content .custom-nav',
-	// 	responsive:{
-	// 		0: {
-	// 			items: 1,						
-	// 		},
-	// 		767: {
-	// 			items: 2,						
-	// 		},
-	// 		1200: {
-	// 			items: 3,						
-	// 		}
-	// 	}
+	$("#owl-csel1").owlCarousel({
+		items: 4,
+		autoplay: false,
+		autoplayTimeout: 3000,
+		startPosition: 0,
+		rtl: false,
+		loop: true,
+		margin: 15,
+		dots: true,
+		nav: true,
+		navText: [
+					'<i class="fa fa-angle-left" aria-hidden="true"></i>',
+					'<i class="fa fa-angle-right" aria-hidden="true"></i>'
+				],
+		navContainer: '.main-content .custom-nav',
+		responsive:{
+			0: {
+				items: 1,						
+			},
+			767: {
+				items: 2,						
+			},
+			1200: {
+				items: 3,						
+			}
+		}
 
-	// });
+	});
 
 
 
@@ -169,7 +155,55 @@ navIcons.addEventListener("click", menuShow);
 
 
 	
-// })(jQuery); 
+})(jQuery); 
+
+
+
+
+
+
+
+// collapsile slider text
+
+// var morelessBtn = document.querySelectorAll(".morelessBtn")
+var collapsibleSliderBtn = document.getElementsByClassName("collapsibleSliderBtn");
+var i;
+
+for (i = 0; i < collapsibleSliderBtn.length; i++) {
+	collapsibleSliderBtn[i].addEventListener("click", function() {
+	// console.log(this.childNodes[1].classList);
+    this.childNodes[1].classList.toggle("rotateArrow");
+    var content = this.previousElementSibling;
+	
+    if (content.style.display === "block") {
+      content.style.display = "none";
+	
+    } else {
+      content.style.display = "block";
+	 
+
+    }
+  });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -187,3 +221,22 @@ navIcons.addEventListener("click", menuShow);
 // 	$('.moretext3').slideToggle();
 // 	$('.moreless-button3').hide();
 // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
