@@ -5,7 +5,7 @@
 // collapse text
 
 // var morelessBtn = document.querySelectorAll(".morelessBtn")
-var coll = document.getElementsByClassName("collapsible");
+const coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {

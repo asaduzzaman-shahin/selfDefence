@@ -1,14 +1,4 @@
 
-/* 
-@media screen and (min-width: 1201px) and (max-width: 1900px) {
-
-    .customContainer {
-        width: 90%;
-        margin: auto;
-        
-    }
-	
-} */
 
 
 @media (max-width:1600px){
@@ -30,7 +20,7 @@
 
 
 /* FOR-LG-START */
-@media screen and (mex-width: 1400px) {
+@media screen and (max-width: 1400px) {
     .wbt-img img {
         border-radius: 20px;
         width: 90%;
@@ -156,9 +146,27 @@
 	
 } 
 
+@media (max-width:1199px){
+    .rltas-slider-wrapper {
+        border: 3px solid #E12732;
+        box-shadow: 0px 5px 37px 10px rgb(255 255 255 / 25%);
+        padding: 25px 25px;
+        min-height: 700px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .rltas-slider-top p {
+        font-size: 19px;
+    }
+}
+
 /*FOR-TABLATE-START*/
 @media screen and (max-width: 992px) {
 
+   
+    .rltas-slider-top p {
+        font-size: 17px;
+    }
  
 
     .wbt-right p {
@@ -258,9 +266,7 @@
         width: 30%;
     }
 
-    .rltas-slider-top p {
-        font-size: 18px;
-    }
+ 
 
     .os-right {
         text-align: center;
@@ -349,9 +355,15 @@
 	
 
 }
-
+@media screen and (max-width: 860px){
+.rltas-slider-top p {
+    font-size: 15px;
+}
+}
 /*FOR-MOBIL-START*/
 @media screen and (max-width: 768px) {
+
+   
 
     .owl-carousel .owl-stage-outer:after {
     display: none;
@@ -499,10 +511,7 @@
         grid-gap: 25px;
     }
 
-    /* .bj-inner-cnt {
-        display: flex;
-        justify-content: flex-start;
-    } */
+ 
 
     .bj-inner-cnt h3 {
         font-size: 25px;
@@ -516,10 +525,7 @@
         padding: 40px 0 30px;
     }
 
-    /* .bj-btm p {
-        font-size: 20px;
-        line-height: 32px;
-    } */
+  
 
     .gn-top h2 {
         font-size: 19px;
@@ -802,13 +808,11 @@
     }
 
     .rltas-top h3 {
-        font-size: 21px;
+        /* font-size: 21px; */
         padding: 0 0 35px;
     }
 
-    .rltas-slider-top p {
-        font-size: 19px;
-    }
+  
     
     .bojj-title h2 {
         font-size: 20px;
@@ -930,9 +934,15 @@
         font-size: 16px;
     }
 
+    
+
 }
 
-
+@media screen and (max-width: 766px){
+    .rltas-slider-top p {
+        font-size: 21px;
+    }
+}
 
 @media (max-width:550px){
   
@@ -966,7 +976,7 @@
 @media (max-width: 540px){
 
     .rltas-slider-top p {
-        font-size: 14px;
+        font-size: 16px;
     }
   
     
@@ -975,6 +985,7 @@
 
 
 @media (max-width:433px){
+  
     .logo img {
         max-width: 70px;
     }
@@ -1009,6 +1020,9 @@
     gap: 10px;
     width: 100%;
     margin: auto;
+}
+.rltas-slider-top p {
+    font-size: 14px;
 }
 }
 
