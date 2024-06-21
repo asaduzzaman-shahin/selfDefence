@@ -1122,7 +1122,7 @@ label {
 
 .main-content .owl-theme .custom-nav {
     position: absolute;
-    top: 40%;
+    top: 24rem;
     left: 0;
     right: 0;
 }
@@ -1153,7 +1153,7 @@ label {
 	border: 3px solid #E12732;
 	box-shadow: 0px 5px 37px 10px rgba(255, 255, 255, 0.25);
 	padding: 25px 25px;
-	min-height: 850px;
+	min-height: 800px;
 	position: relative;
 	margin-bottom: 50px;
 }
@@ -1182,14 +1182,18 @@ label {
     cursor: pointer;
 }
 .rltas-slider-top {
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 .rltas-slider-top p {
 	color: #EEE;
-	font-size: 21px;
-	font-weight: 500;
-	margin: 0 0 20px;
+ 
+    font-weight: 500;
+    margin: 0 0 20px;
+    font-size: 22px;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
 }
 
 .rltas-slider-top a img {
@@ -1202,15 +1206,20 @@ label {
 	display: flex;
 	align-items: flex-start;
 	position: absolute;
-	width: 100%;
+	min-width: 94%;
 	left: 20px;
 	bottom: 20px;
 }
 
+.profile-info p i {
+    color: yellow;
+    font-size: 1rem;
+}
+
 .profile-img img {
-	width: 65px;
-	height: 65px;
-	border-radius: 50%;
+    width: 55px!important;
+    height: 55px!important;
+    border-radius: 100%;
 }
 
 .profile-info {
@@ -1225,10 +1234,41 @@ label {
 }
 
 .profile-info p {
-	font-size: 15px;
-	font-weight: 500;
-	color: #EEE; 
-	margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #EEE;
+    margin: 0;
+    width: 100%;
+	display: inline-block;
+}
+
+.owl-carousel .owl-stage-outer:after {
+    content: "";
+    width: 20%;
+    height: -webkit-fill-available;
+    /* background: rgb(0 0 0 / 67%); */
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to right, #130000a8 40%, #add8e600 100%) left;
+}
+.owl-carousel .owl-stage-outer:before {
+    content: "";
+    width: 20%;
+    height: -webkit-fill-available;
+    /* background: #bb3c3c; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to right, #27040400 7%, #130000a8 84%) left;
+    z-index: 123;
+}
+
+.profile-info p:last-child {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    flex-direction: inherit;
 }
 
 .rltas-slider .owl-theme .owl-dots .owl-dot.active span, .rltas-slider .owl-theme .owl-dots .owl-dot:hover span {
