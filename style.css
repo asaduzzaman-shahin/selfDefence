@@ -1171,7 +1171,7 @@ label {
 }
 
 .redTxt{
-	color: red;
+	color: red !important;
 }
 
 .rotateArrow{
