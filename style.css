@@ -1456,7 +1456,7 @@ label {
 }
 
 .footer-title h3 {
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 700;
 	color: #fff;
 	margin: 0;
@@ -1473,7 +1473,7 @@ label {
 }
 
 .footer-right h3 {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 600;
 	color: #fff;
 	margin: 0 0 25px;
@@ -1521,7 +1521,7 @@ label {
 }
 
 .social-links ul li {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 500;
 	color: #fff;
 	padding: 0 10px;
