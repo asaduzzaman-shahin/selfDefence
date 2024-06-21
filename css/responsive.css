@@ -437,9 +437,10 @@
     }
     .mobileBanner{
         display: block!important;
-        margin-top: 125px;
-        height: 88vh !important;
+        padding-top: 125px;
+        height: 100vh !important;
     }
+
     .banner {
         width: 100vw;
         height: 100vh;
@@ -939,12 +940,7 @@
         width: 100%;
     }
 
-    .mobileBanner {
-        display: block!important;
-    height: 90vh !important;
-    position: absolute;
-    top: -57px;
-    }
+    
  
 
     .gbo-cnt2 a {
@@ -972,12 +968,8 @@
     .rltas-slider-top p {
         font-size: 14px;
     }
-    .mobileBanner {
-        display: block!important;
-        height: 83vh !important;
-        position: absolute;
-        top: 0px;
-    }
+  
+    
     }
   
 
@@ -1008,12 +1000,7 @@
 }
 
 @media (max-width: 414px){
-.mobileBanner {
-    display: block!important;
-    height: 84vh !important;
-    position: absolute;
-    top: 0px;
-}
+
 .bj-inner-cnt {
     display: flex;
     justify-content: flex-start;
@@ -1024,45 +1011,18 @@
     margin: auto;
 }
 }
-@media (max-width: 375px){
+
+
+
+    
+
+@media (max-width: 300px){
 
     .mobileBanner {
         display: block!important;
-        height: 83vh !important;
-        position: absolute;
-        top: 0px;
+        padding-top: 116px;
+        height: 110vh !important;
     }
-}
-
-
-
-
-@media (max-width: 360px){
-    .mobileBanner {
-        display: block!important;
-        height: 81vh !important;
-        position: absolute;
-        top: 0;
-    }
-    }
-		         
-@media (max-width: 320px){
-        .mobileBanner {
-            display: block!important;
-            height: 78vh !important;
-            position: absolute;
-            top: 0;
-        }
-        }
-
-@media (max-width: 280px){
-
-.mobileBanner {
-    display: block!important;
-    height: 92vh !important;
-    position: absolute;
-    top: -10px;
-}
 .logo img {
     max-width: 60px;
 }
