@@ -130,7 +130,7 @@ label {
 	text-align: center;
 	line-height: 46px;
 	font-size: 24px;
-	color: rgba(0, 0, 0, 0.3); 
+	color: rgb(250 91 11); 
 	left: 0;
 	top: 0;
 	height: 46px;
@@ -348,7 +348,7 @@ label {
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0 0 35px;
-	font-size: 24px;
+	/* font-size: 24px; */
 }
 
 .gn-btm {
@@ -358,7 +358,7 @@ label {
 }
 
 .bj-title h2 span {
-	font-size: 24px;
+	font-size: 32px;
 }
 .iconImg {
     width: 50px!important;
@@ -474,7 +474,7 @@ label {
 	color: #ffffff;
 	margin: 40px 0 0;
 	text-align: justify;
-	font-size: 14px;
+	/* font-size: 14px; */
 }
 
 .gn-img-cnt p img {
@@ -1397,22 +1397,37 @@ label {
 }
 
 .gbo-cnt a {
-	font-size: 17px;
-	font-weight: 600;
-	color: #fff;
-	display: inline-block;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 6px 70px;
-	transition: 0.2s;
-	border-radius: 3px;
-	border: 0.7px solid #FFF;
-	background: linear-gradient(90deg, #F9530B 0%, #FF9005 100%);
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff!important;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.2s;
+    border-radius: 3px;
+    border: 0.7px solid #FFF;
+    background: linear-gradient( 
+90deg
+ , #F9530B 0%, #FF9005 100%);
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.gbo-cnt a span img {
+    width: 27px;
+}
+.gbo-cnt.text-center img .img-fluid {
+    height: 300px;
 }
 
-.gbo-cnt2 a {
-	padding: 20px 120px;
+.gbo-cnt a span {
+	line-height: 17px;
 }
+
+/* .gbo-cnt2 a {
+	padding: 20px 120px;
+} */
 
 .gbo-cnt a:hover {
 	opacity: 0.8;

@@ -162,7 +162,10 @@
 
 /*FOR-TABLATE-START*/
 @media screen and (max-width: 992px) {
-
+    .gbo-cnt a {
+      
+        margin-top: 50px;
+    }
    
     .rltas-slider-top p {
         font-size: 17px;
