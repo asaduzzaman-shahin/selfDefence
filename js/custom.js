@@ -75,22 +75,22 @@ shortBtn.addEventListener("click", function (){
 
 // menu function
 
-const navIcon = document.querySelector(".navIcon i");
-const navIcons = document.querySelector(".navIcon");
-const navMobile = document.querySelector(".menu");
+// const navIcon = document.querySelector(".navIcon i");
+// const navIcons = document.querySelector(".navIcon");
+// const navMobile = document.querySelector(".menu");
 
 
 
-const menuShow = () => {
-    navMobile.classList.toggle("menuHide");
-    navIcon.classList.toggle("fa-bars");
-    navIcon.classList.toggle("fa-times");
-    navIcons.classList.toggle("shadowChange")
+// const menuShow = () => {
+//     navMobile.classList.toggle("menuHide");
+//     navIcon.classList.toggle("fa-bars");
+//     navIcon.classList.toggle("fa-times");
+//     navIcons.classList.toggle("shadowChange")
     
-}
+// }
 
 
-navIcons.addEventListener("click", menuShow);
+// navIcons.addEventListener("click", menuShow);
 
 
 
