@@ -21,7 +21,35 @@
 
 /* FOR-LG-START */
 @media screen and (max-width: 1400px) {
+    .gn-btm h2 {
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 47px;
+        font-weight: 600;
+        color: #ffffff;
+        font-style: italic;
+        position: relative;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        letter-spacing: 2px;
+    }
 
+     .fixlg h2 {
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 31px !important;
+        font-weight: 600;
+        color: #ffffff;
+        font-style: italic;
+        position: relative;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        letter-spacing: 2px;
+    }
+
+    .gn-btm p {
+        font-size: 21px;
+    }
     .coporateDetails h4 {
         font-family: Hind Madurai;
         font-size: 24px;
