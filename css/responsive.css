@@ -21,6 +21,20 @@
 
 /* FOR-LG-START */
 @media screen and (max-width: 1400px) {
+
+    .coporateDetails h4 {
+        font-family: Hind Madurai;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.5rem;
+        text-align: left;
+        text-align: justify;
+        color: rgba(255, 255, 255, 1);
+    }
+    .exlarg p{
+        font-size: 20px;
+    }
+    
     .wbt-img img {
         border-radius: 20px;
         width: 90%;
@@ -154,6 +168,11 @@
 } 
 
 @media (max-width:1199px){
+    .headlinef{
+        font-size: 24px!important;
+       
+        
+    }
     .rltas-slider-wrapper {
         border: 3px solid #E12732;
         box-shadow: 0px 5px 37px 10px rgb(255 255 255 / 25%);
@@ -165,10 +184,32 @@
     .rltas-slider-top p {
         font-size: 19px;
     }
+
+    .textWraper ul li {
+        font-size: 20px;
+    }
 }
 
 /*FOR-TABLATE-START*/
 @media screen and (max-width: 992px) {
+
+    .coporateDetails h4 {
+        font-family: Hind Madurai;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.5rem;
+        text-align: left;
+        text-align: justify;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .textWraper ul li {
+        font-size: 21px;
+        margin-bottom: 30px;
+        font-weight: 500;
+        color: white;
+        width: 100%;
+    }
     .gbo-cnt a {
       
         margin-top: 50px;
@@ -273,7 +314,7 @@
     }
 
     .trob-img {
-        width: 30%;
+        width: 15%;
     }
 
  
@@ -366,6 +407,10 @@
 
 }
 @media screen and (max-width: 860px){
+    .mobileBannerf img{
+        width:100%;
+        height: auto;
+    }
 .rltas-slider-top p {
     font-size: 15px;
 }
@@ -373,6 +418,39 @@
 /*FOR-MOBIL-START*/
 @media screen and (max-width: 768px) {
 
+    .col-lg-3.col-md-3.col-sm-12.d-flex.justify-content-center.align-item-center.singleWorkshopImg {
+        justify-content: flex-start!important;
+    }
+    .ctaMobile img {
+        width: 50%;
+    }
+
+    .ctaMobile {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: end;
+    }
+    .singleWorkshopImg img {
+        height: fit-content;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+
+    
+
+.coporateDetails h4 {
+    font-family: Hind Madurai;
+    font-size: 21px;
+}
+
+    .headlinef {
+        font-size: 18px!important;
+    }
+
+    .imgWraper {
+       
+        margin-bottom: 4rem;
+    }
    
 
     .owl-carousel .owl-stage-outer:after {
@@ -459,7 +537,7 @@
     }
     .mobileBanner{
         display: block!important;
-        padding-top: 125px;
+        padding-top: 164px;
         height: 100vh !important;
     }
 
@@ -469,9 +547,9 @@
         background: #373737;
     }
 
-    .logo img {
+    /* .logo img {
         max-width: 70px;
-    }
+    } */
     .gbo-cnt.text-center{
        
             text-align: center !important;
@@ -481,9 +559,9 @@
     }
 
 
-    .logo a span {
+    /* .logo a span {
         font-size: 12px;
-    }
+    } */
 
     .call-btn a {
         font-size: 12px;
@@ -944,6 +1022,11 @@
         font-size: 16px;
     }
 
+    .sngleitem img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
     
 
 }
@@ -955,6 +1038,14 @@
 }
 
 @media (max-width:550px){
+
+    .ctaMobile img {
+        width: 70%;
+    }
+
+    .headlinef {
+        font-size: 16px!important;
+    }
   
     .h2-border {
         width: 100%;
@@ -988,6 +1079,9 @@
     .rltas-slider-top p {
         font-size: 16px;
     }
+    .logo img {
+        max-width: 70px;
+    }
   
     
     }
@@ -995,10 +1089,28 @@
 
 
 @media (max-width:433px){
-  
-    .logo img {
-        max-width: 70px;
+    .mobileBanner {
+        display: block!important;
+        padding-top: 150px;
+        height: 100vh !important;
     }
+    .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .headlinef {
+        font-size: 16px;
+    }
+
+    .corporateBtn img {
+        width: 100%;
+    }
+  
+   
 
     .logo a span {
         font-size: 12px;
@@ -1034,6 +1146,9 @@
 .rltas-slider-top p {
     font-size: 14px;
 }
+.imgWraper img {
+    width: 90%;
+}
 }
 
 
@@ -1041,15 +1156,18 @@
     
 
 @media (max-width: 300px){
+    .headlinef {
+        font-size: 14px;
+    }
 
     .mobileBanner {
         display: block!important;
-        padding-top: 116px;
-        height: 110vh !important;
+        padding-top: 150px;
+        height: 100vh !important;
     }
-.logo img {
-    max-width: 60px;
-}
+    .logo img {
+        max-width: 100px;
+    }
 .logo a span {
     font-size: 10px;
     display: none;

@@ -1,5 +1,23 @@
 
+// last section seeMore open close
 
+const seeBtn = document.querySelector("#seeBtn");
+const seeMoremobile = document.querySelector("#seeMoremobile");
+
+
+seeBtn.addEventListener("click", function(){
+
+	if(seeMoremobile.style.display == "block"){
+		seeMoremobile.style.display="none";
+		this.childNodes[1].style.transform='rotate(0deg)';
+
+	}else{
+seeMoremobile.style.display="block";
+this.childNodes[1].style.transform='rotate(180deg)';
+	}
+
+
+})
 
 
 // collapse text
@@ -73,6 +91,10 @@ const menuShow = () => {
 
 
 navIcons.addEventListener("click", menuShow);
+
+
+
+
 
 
 
