@@ -1026,6 +1026,10 @@
         width: 100%;
         margin-bottom: 2rem;
     }
+    .main-content .owl-theme .custom-nav .owl-prev i, .main-content .owl-theme .custom-nav .owl-next i {
+        font-size: 25px;
+        color: red;
+    }
 
     
 

@@ -96,8 +96,28 @@ shortBtn.addEventListener("click", function (){
 
 
 
+// collapsile slider text
 
+// var morelessBtn = document.querySelectorAll(".morelessBtn")
+var collapsibleSliderBtn = document.getElementsByClassName("collapsibleSliderBtn");
+var i;
 
+for (i = 0; i < collapsibleSliderBtn.length; i++) {
+	collapsibleSliderBtn[i].addEventListener("click", function() {
+	// console.log(this.childNodes[1].classList);
+    this.childNodes[1].classList.toggle("rotateArrow");
+    var content = this.previousElementSibling;
+	
+    if (content.style.display === "block") {
+      content.style.display = "none";
+	
+    } else {
+      content.style.display = "block";
+	 
+
+    }
+  });
+}
 
 //Scroll back to top
 
@@ -178,37 +198,6 @@ shortBtn.addEventListener("click", function (){
 
 	
 })(jQuery); 
-
-
-
-
-
-
-
-// collapsile slider text
-
-// var morelessBtn = document.querySelectorAll(".morelessBtn")
-var collapsibleSliderBtn = document.getElementsByClassName("collapsibleSliderBtn");
-var i;
-
-for (i = 0; i < collapsibleSliderBtn.length; i++) {
-	collapsibleSliderBtn[i].addEventListener("click", function() {
-	// console.log(this.childNodes[1].classList);
-    this.childNodes[1].classList.toggle("rotateArrow");
-    var content = this.previousElementSibling;
-	
-    if (content.style.display === "block") {
-      content.style.display = "none";
-	
-    } else {
-      content.style.display = "block";
-	 
-
-    }
-  });
-}
-
-
 
 
 
