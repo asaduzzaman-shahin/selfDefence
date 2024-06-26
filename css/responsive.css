@@ -36,7 +36,7 @@
 
      .fixlg h2 {
         font-family: "Source Sans 3", sans-serif;
-        font-size: 31px !important;
+        font-size: 31px;
         font-weight: 600;
         color: #ffffff;
         font-style: italic;
@@ -67,7 +67,7 @@
         border-radius: 20px;
         width: 90%;
         width: fit-content;
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
         width: 90%;
     }
     .fighterImg {
@@ -107,7 +107,7 @@
     }
 
     .wbt-img {
-        padding-top: 50px;
+        /* padding-top: 50px; */
         padding-right: 20px;
     }
 
@@ -188,7 +188,9 @@
         font-size: 16px;
     }
 
-
+    .wbt-right p:first-child {
+        margin-top: 1rem;
+    }
 
 	
 
@@ -254,7 +256,7 @@
     }
 
     .wbt-img {
-        padding-top: 50px;
+        /* padding-top: 50px; */
         padding-right: 20px;
     }
 
@@ -600,7 +602,10 @@
     }
   
 
-
+    .fighterImg {
+      
+        height: auto;
+    }
 
     .banner {
         /* margin-top: 0; */
@@ -644,19 +649,37 @@
     .bj-btm {
         padding: 40px 0 30px;
     }
+    .h2-border {
+        background: linear-gradient(
+    90deg
+    , #09B238 0%, #122962 100%);
+        width: 357px;
+        height: 5px;
+        /* margin: 2rem auto 2rem; */
+    }
 
-  
+    .gn-btm {
+        margin: 0;
+    }
+
+    .bojj-area {
+      
+        padding-top: 2rem;
+    }
 
     .gn-top h2 {
-        font-size: 19px;
+        /* font-size: 19px; */
         padding: 12px;
         border-radius: 6px;
+        font-size: 1rem;
     }
 
     .gn-main-wrapper {
         grid-template-columns: repeat(1,1fr);
         grid-gap: 45px;
         padding-bottom: 50px;
+        margin-top: 2rem;
+        padding-bottom: 6rem;
     }
 
     .gn-top {
@@ -677,22 +700,23 @@
     }
 
     .gray-news-area {
-        padding-bottom: 50px;
+        padding-bottom: 1px;
     }
 
     .wbt-area {
-        padding: 60px 0 0;
+        padding: 60px 0 15rem 0;
     }
 
-            
     .wbt-title h2 {
-        font-size: 23px;
+        font-size: 18px;
     }
 
     .h2-border {
         width: 300px;
     }
-
+    section#program {
+        margin-top: -9rem;
+    }
     .wbt-right p {
         font-size: 18px;
         font-weight: 500;
@@ -702,8 +726,9 @@
     }
 
     .gn-btm2 {
-        padding-top: 15px;
-        padding-bottom: 30px;
+        padding-top: 2rem;
+        padding-bottom: 0px;
+        margin-top: 0;
     }
 
     .gn-btm2 h2 {
@@ -714,8 +739,10 @@
         height: 50px;
     }
 
+    
     .wits-cnt h3 {
         font-size: 17px;
+        text-align: justify;
     }
 
     .wits-cnt h4 {
@@ -757,18 +784,26 @@
     .trob-right p {
         font-size: 16px;
     }
-
+    .submit-btn {
+        width: 206%;
+        margin: auto;
+        text-align: center;
+    }
     .trob-cnt {
         padding-bottom: 40px;
     }
+   
+.foundyear{
+    margin-top: 3px; font-size: 18px; display: contents;
 
+}
     .trob-btm p {
         font-size: 17px;
     }
 
     .main-btn2 {
-        padding-top: 50px;
-        margin-bottom: -50px;
+        padding-top: 36px;
+        margin-bottom: -36px;
     }
 
     .main-btn-b {
@@ -913,7 +948,10 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-
+    .wbt-img img {
+        border-radius: 20px;
+        width: 100%;
+    }
     .opty-right {
         width: 100%;
     }
@@ -931,8 +969,22 @@
         /* font-size: 21px; */
         padding: 0 0 35px;
     }
+.extcss{
+    padding-bottom: 5rem;
 
-  
+}
+
+.os-left h4 {
+    text-align: justify;
+}
+
+.os-left p {
+   
+    text-align: justify;
+}
+.shortBtn img {
+    width: 120px;
+}
     
     .bojj-title h2 {
         font-size: 20px;
@@ -994,11 +1046,14 @@
         font-size: 30px;
         margin: 0 0 35px;
     }
-
+ 
     .gbo-area {
         padding: 10px 0 50px;
     }
-
+    .gn-main-cnt {
+        width: 90%;
+        margin: auto;
+    }
     .gbo-area .bojj-title h2 {
         font-size: 18px;
     }
@@ -1030,15 +1085,24 @@
         font-size: 20px;
         padding-top: 30px;
     }
-
+    .wits-area {
+        background-color: #0B0B0B;
+        padding-top: 1rem;
+    }
     .footer-right h3 {
         font-size: 20px;
+    }
+    .main-btn.text-center {
+        margin-top: 1rem;
     }
 
     .social-links ul li {
         font-size: 19px;
     }
-
+    .gn-btm.gn-btm2.fixlg h2 img {
+        width: 10px;
+        padding-top: 8px;
+    }
 
     .defenceWrapper {
         display: flex;
@@ -1075,6 +1139,10 @@
 
 @media (max-width:550px){
 
+    .wbt-title h2 {
+        font-size: 14px;
+    }
+
     .ctaMobile img {
         width: 70%;
     }
@@ -1084,7 +1152,7 @@
     }
   
     .h2-border {
-        width: 100%;
+        width: 100px;
     }
 
     
@@ -1111,6 +1179,13 @@
 }
 
 @media (max-width: 540px){
+
+    .form-title h3, h2 {
+        font-size: 16px!important;
+    }
+    .gn-btm h2 {
+        font-size: 18px;
+    }
 
     .rltas-slider-top p {
         font-size: 16px;

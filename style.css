@@ -466,7 +466,7 @@ label {
 	grid-template-columns: repeat(3,1fr);
 	grid-gap: 63px;
 	padding-bottom: 100px;
-	background: #00000061;
+	/* background: #00000061; */
 	padding: 20px 10px;
 	width: 90%;
     margin: auto;
@@ -506,9 +506,9 @@ label {
     letter-spacing: 2px;
 }
 .gn-btm h2 img {
-	margin-top: -60px;
+    margin-top: -40px;
+    width: 16px;
 }
-
 
 .gn-btm p {
 	font-size: 30px;
@@ -1084,6 +1084,8 @@ label {
 
 .opty-img {
 	width: 40%;
+	margin: auto;
+    text-align: center;
 }
 
 .opty-right {
