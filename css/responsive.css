@@ -220,6 +220,29 @@
     }
 }
 
+
+@media only screen and (device-height: 600px){
+    .main-btn-b {
+        position: absolute;
+        bottom: 0px;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 165px;
+    }
+    .banner img {
+       
+        padding-top: 55px;
+    }
+    .main-btn a img {
+        width: 190px;
+    }
+
+}
+
+
+
 /*FOR-TABLATE-START*/
 @media screen and (max-width: 992px) {
 
