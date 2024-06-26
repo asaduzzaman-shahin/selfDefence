@@ -973,7 +973,11 @@
     padding-bottom: 5rem;
 
 }
-
+.main-content .owl-theme .custom-nav {
+   
+    top: 20rem;
+    
+}
 .os-left h4 {
     text-align: justify;
 }
