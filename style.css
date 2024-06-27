@@ -1229,6 +1229,7 @@ label {
     width: 55px!important;
     height: 55px!important;
     border-radius: 100%;
+	border: 1px solid red;
 }
 
 .profile-info {
