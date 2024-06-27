@@ -221,7 +221,7 @@
 }
 
 
-@media only screen and (device-height: 600px){
+@media screen and (max-height: 700px){
     .main-btn-b {
         position: absolute;
         bottom: 0px;
@@ -350,13 +350,18 @@
         width: 95%;
     }
     .main-btn a img {
-        width: 210px;
+        width: 200px;
         padding: 2rem 0;
     }
     .gn-btm h2 {
         font-family: "Source Sans 3", sans-serif;
         font-size: 26px;
     }
+    .main-btn-b {
+       
+        height: 100px;
+    }
+   
 
 }
 
