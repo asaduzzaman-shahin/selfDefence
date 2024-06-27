@@ -1360,7 +1360,10 @@
   
     
     }
-  
+    .social-links ul li a svg {
+        width: 25px;
+        height: 25px;
+    }
 
 
 @media (max-width:433px){
