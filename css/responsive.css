@@ -64,14 +64,14 @@
     }
     
     .wbt-img img {
-        border-radius: 20px;
+        /* border-radius: 20px; */
         width: 90%;
         width: fit-content;
         /* margin-top: 4rem; */
         width: 90%;
     }
     .fighterImg {
-        border-radius: 20px;
+        /* border-radius: 20px; */
         width: fit-content;
         margin-top: 1rem !important;
         width: 100%;
@@ -230,6 +230,7 @@
         justify-content: center;
         align-items: center;
         height: 165px;
+        height: 110px;
     }
     .banner img {
        
