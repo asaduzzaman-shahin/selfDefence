@@ -1197,7 +1197,7 @@ label {
 
 
 .rltas-slider-top p {
-	color: #EEE;
+	color: #EEEEEE;
  
     font-weight: 500;
     margin: 0 0 20px;
@@ -1799,12 +1799,8 @@ section#seeMoremobile {
 	display: none;
   }
 
-
   
-/* 
-  .rltas-slider-top p {
-    display: inline;
-} */
+  
 
 
 /* Medium screens (e.g., tablets) */
