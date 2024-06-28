@@ -1194,13 +1194,15 @@ label {
 	padding-bottom: 100px;
 }
 
+
+
 .rltas-slider-top p {
 	color: #EEE;
  
     font-weight: 500;
     margin: 0 0 20px;
     font-size: 22px;
-    text-align: justify;
+    /* text-align: justify; */
     width: 90%;
     margin: auto;
 }
@@ -1799,8 +1801,10 @@ section#seeMoremobile {
 
 
   
-
-
+/* 
+  .rltas-slider-top p {
+    display: inline;
+} */
 
 
 /* Medium screens (e.g., tablets) */

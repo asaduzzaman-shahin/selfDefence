@@ -99,20 +99,31 @@ shortBtn.addEventListener("click", function (){
 // collapsile slider text
 
 // var morelessBtn = document.querySelectorAll(".morelessBtn")
+
 var collapsibleSliderBtn = document.getElementsByClassName("collapsibleSliderBtn");
 var i;
 
 for (i = 0; i < collapsibleSliderBtn.length; i++) {
 	collapsibleSliderBtn[i].addEventListener("click", function() {
-	// console.log(this.childNodes[1].classList);
+	console.log(this.childNodes[1].classList);
     this.childNodes[1].classList.toggle("rotateArrow");
     var content = this.previousElementSibling;
+	var prevContent= content.previousElementSibling;
+	var firstContent = prevContent.previousElementSibling;
+	var dotHide = content.previousElementSibling.childNodes[1];
 	
-    if (content.style.display === "block") {
+	
+    if (content.style.display === "inline") {
       content.style.display = "none";
+	  dotHide.style.display = "inline";
+	  firstContent.style.display ="block"
+	  prevContent.style.display="block"
 	
     } else {
-      content.style.display = "block";
+      content.style.display = "inline";
+	  dotHide.style.display = "none";
+	  firstContent.style.display="inline";
+	  prevContent.style.display="inline"
 	 
 
     }
