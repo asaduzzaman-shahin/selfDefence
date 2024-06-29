@@ -1,4 +1,14 @@
 
+@media (max-width:1700px){
+    .rltas-slider-top p {
+       
+        font-size: 20px;
+        
+    }
+}
+
+
+
 
 
 @media (max-width:1600px){
@@ -21,6 +31,11 @@
 
 /* FOR-LG-START */
 @media screen and (max-width: 1400px) {
+    .rltas-slider-wrapper {
+      
+        min-height: 834px;
+      
+    }
     .gn-btm h2 {
         font-family: "Source Sans 3", sans-serif;
         font-size: 47px;
@@ -148,7 +163,7 @@
     }
 
     .rltas-slider-top p {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .bojj-title h2 {
@@ -196,6 +211,11 @@
 
 	
 } 
+@media (max-width:1300px){
+    .rltas-slider-top p {
+        font-size: 17px;
+    }
+}
 
 @media (max-width:1199px){
     .headlinef{
@@ -365,7 +385,9 @@
         border: 3px solid #E12732;
         box-shadow: 0px 5px 37px 10px rgb(255 255 255 / 25%);
         padding: 25px 25px;
-        min-height: 860px;
+        /* min-height: 860px; */
+        min-height: 700px;
+        
         position: relative;
         margin-bottom: 50px;
     }
