@@ -207,7 +207,9 @@
         margin-top: 1rem;
     }
 
-	
+	.gbo-cnt.text-center:last-child > img {
+        width: 96%;
+    }
 
 	
 } 
@@ -216,6 +218,8 @@
         font-size: 17px;
     }
 }
+
+
 
 @media (max-width:1199px){
     .headlinef{
@@ -241,7 +245,8 @@
 }
 
 
-@media screen and (max-height: 700px){
+@media (max-height: 700px) and (min-width: 995px) {
+    
     .main-btn-b {
         position: absolute;
         bottom: 0px;

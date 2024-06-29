@@ -1156,7 +1156,9 @@ label {
 .main-content .owl-theme .custom-nav .owl-next {
     right: 0;
 }
-
+.gbo-cnt.text-center:last-child > img {
+    width: 386px;
+}
 
 .rltas-slider-wrapper {
 	border: 3px solid #E12732;
