@@ -775,12 +775,15 @@
     .mobileBanner{
         display: block!important;
         padding-top: 164px;
-        height: 100vh !important;
+        height: 100vh;
+        
+        height: 100svh;
     }
 
     .banner {
         width: 100vw;
         height: 100vh;
+        height: 100svh;
         background: #373737;
     }
 
@@ -1470,7 +1473,8 @@
     .mobileBanner {
         display: block!important;
         padding-top: 150px;
-        height: 100vh !important;
+        height: 100vh;
+        height: 100svh;
     }
     .header-inner {
         display: flex;
@@ -1547,7 +1551,8 @@
     .mobileBanner {
         display: block!important;
         padding-top: 150px;
-        height: 100vh !important;
+        height: 100vh;
+        height: 100svh;
     }
     .logo img {
         max-width: 100px;
