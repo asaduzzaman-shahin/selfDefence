@@ -339,7 +339,14 @@ label {
 
 
 }
+i.fa-solid.fa-star-half:before {
+    position: absolute;
+    bottom: 1px;
+}
 
+i.fa-solid.fa-star-half img {
+    width: 18px;
+}
 .bj-area {
 	background-color: #000000;
 	padding: 36px 62px;
