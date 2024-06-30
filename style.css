@@ -333,10 +333,11 @@ label {
 
 .banner img {
 	width: 100%;
-	height: 100vh;
     width: 100vw;
-	height: 100svh!important;
-	height: 100dvh!important;
+	height: 100vh;
+	height: 100svh;
+
+
 }
 
 .bj-area {

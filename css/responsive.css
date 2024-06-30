@@ -777,13 +777,13 @@
         padding-top: 164px;
         height: 100vh;
         
-        height: 100dvh !important;
+     
     }
 
     .banner {
         width: 100vw;
         height: 100vh;
-        height: 100dvh !important;
+        
         background: #373737;
     }
 
@@ -1349,6 +1349,11 @@
 
 @media (max-width:550px){
 
+    .gn-main-cnt {
+        width: 100%;
+        margin: auto;
+    }
+
     .opty-title h2 {
         font-size: 24px;
     }
@@ -1417,7 +1422,7 @@
         font-size: 12px;
     }
     .fixlg h2 {
-        font-size: 25px !important;
+        font-size: 24px !important;
     }
 
     .bj-btm p {
@@ -1474,7 +1479,7 @@
         display: block!important;
         padding-top: 150px;
         height: 100vh;
-        height: 100dvh;
+       
     }
     .header-inner {
         display: flex;
@@ -1552,7 +1557,7 @@
         display: block!important;
         padding-top: 150px;
         height: 100vh;
-        height: 100dvh!important;
+        
     }
     .logo img {
         max-width: 100px;
