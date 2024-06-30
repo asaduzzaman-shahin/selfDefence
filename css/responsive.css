@@ -1521,6 +1521,15 @@
 
 @media (max-width: 414px){
 
+    .profile-info p {
+        font-size: 13px;
+        font-weight: 500;
+        color: #EEE;
+        margin: 0;
+        width: 100%;
+        display: inline-block;
+    }
+
 .bj-inner-cnt {
     display: flex;
     justify-content: flex-start;
