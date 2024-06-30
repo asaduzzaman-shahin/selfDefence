@@ -777,13 +777,13 @@
         padding-top: 164px;
         height: 100vh;
         
-        height: 100svh;
+        height: 100svh !important;
     }
 
     .banner {
         width: 100vw;
         height: 100vh;
-        height: 100svh;
+        height: 100svh !important;
         background: #373737;
     }
 
@@ -1552,7 +1552,7 @@
         display: block!important;
         padding-top: 150px;
         height: 100vh;
-        height: 100svh;
+        height: 100svh!important;
     }
     .logo img {
         max-width: 100px;
