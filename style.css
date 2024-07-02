@@ -339,6 +339,15 @@ label {
 
 
 }
+.rltas-slider-wrapper .rltas-slider-btm {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    min-width: 94%;
+    left: 20px;
+    bottom: 20px;
+    align-items: center;
+}
 i.fa-solid.fa-star-half:before {
     position: absolute;
     bottom: 1px;
