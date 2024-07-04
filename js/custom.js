@@ -170,13 +170,14 @@ for (i = 0; i < collapsibleSliderBtn.length; i++) {
 
 	$("#owl-csel1").owlCarousel({
 		items: 4,
-		autoplay: false,
+		autoplay: true,
 		autoplayTimeout: 3000,
 		startPosition: 0,
 		rtl: false,
 		loop: true,
 		margin: 15,
 		dots: true,
+		autoplayHoverPause:true,
 		nav: true,
 		navText: [
 					'<i class="fa fa-angle-left" aria-hidden="true"></i>',
