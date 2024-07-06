@@ -5,6 +5,33 @@
         font-size: 20px;
         
     }
+
+    .shadowNon{
+    box-shadow: 0 0 0px 0px black;
+    width: 100%;
+    padding: 0 0;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+
+    }
+    .padingNone{
+        background-color: #122962;
+    padding: 40px 0 !important;
+    }
+
+    section#promise {
+        padding-top: 8rem;
+    }
+
+    .shape.shape2.believeShapeFix {
+        display: none;
+    }
+    .displayFormobile2{
+        display: block;
+        margin-top: 8rem;
+    }
 }
 
 
@@ -17,6 +44,18 @@
         font-size: 19px;
         
     }
+
+    .promiseShapeFix {
+       
+        height: 20rem;
+       
+    }
+    .promiseShapeFix {
+        height: 16rem;
+        padding-bottom: 7rem;
+    }
+
+  
 }
 
 @media (max-width:1432px){
@@ -31,6 +70,7 @@
 
 /* FOR-LG-START */
 @media screen and (max-width: 1400px) {
+  
     .rltas-slider-wrapper {
       
         min-height: 834px;
@@ -165,11 +205,15 @@
     .rltas-slider-top p {
         font-size: 18px;
     }
+   
 
     .bojj-title h2 {
         font-size: 37px;
     }
-
+    .trob-top p {
+        font-size: 24px;
+        margin-top: 0;
+    }
     .bojj-left p {
         font-size: 20px;
         padding-right: 20px;
@@ -194,7 +238,9 @@
     .gbo-cnt2 a {
         padding: 20px 70px;
     }
-
+    .trob-right p{
+        font-size: 16px;
+    }
     .gbo-cnt p {
         font-size: 22px;
     }
@@ -210,18 +256,76 @@
 	.gbo-cnt.text-center:last-child > img {
         width: 96%;
     }
-
+    h4.h4Right {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
 	
 } 
 @media (max-width:1300px){
+    .wits-area {
+        background-color: #0B0B0B;
+        padding-top: 0rem;
+        padding-bottom: 4rem;
+        position: relative;
+        z-index: 6;
+    }
+    .shape2 {
+        
+        height: 18rem;
+    
+    }
     .rltas-slider-top p {
         font-size: 17px;
+    }
+    .trob-top p {
+        font-size: 19px;
+        margin-top: 0;
+    }
+    .wits-btm h2 {
+    
+        font-size: 40px;
+    }
+    .foundyear {
+        
+        font-size: 25px;
+     
+    
+    }
+ 
+    .heightFix {
+        height: 16rem;
+    }
+    .shapeFixing{
+    display: none;
+    }
+
+    .displyFOrmobile{
+        display: block;
+        padding: 4rem 0;
+    }
+
+    .promiseShapeFix{
+        display: none;
     }
 }
 
 
 
-@media (max-width:1199px){
+@media (max-width:1200px){
+
+    .gp-btm {
+      
+        height: 16rem;
+      
+    }
+
+    .btnshapeChange{
+        height: 16rem;
+
+    }
+ 
     .headlinef{
         font-size: 24px!important;
        
@@ -246,6 +350,12 @@
 
 
 @media (max-height: 700px) and (min-width: 995px) {
+
+
+  
+    .newsMobile{
+        padding-bottom: 3rem;
+    }
     
     .main-btn-b {
         position: absolute;
@@ -280,6 +390,12 @@
         /* text-align: center; */
         /* margin: auto; */
         display: block;
+    }
+    .foundyear {
+        
+        font-size: 20px;
+     
+    
     }
     .wits-area2 .wits-cnt2 h2 {
         font-size: 34px;
@@ -368,6 +484,7 @@
         font-weight: 500;
         color: #fff;
         width: 90%;
+        margin-top: 2rem;
         margin-bottom: 1rem;
         text-align: justify;
     }
@@ -543,7 +660,9 @@
         width: 15%;
     }
 
- 
+    .os-right.newsMobile {
+        margin-bottom: 3rem;
+    }
 
     .os-right {
         text-align: center;
@@ -643,6 +762,22 @@
 }
 /*FOR-MOBIL-START*/
 @media screen and (max-width: 768px) {
+    .gn-btm {
+      
+        width: 100%;
+       
+    }
+    .wbt-img {
+        /* padding-top: 50px; */
+        padding-right: 0px;
+    }
+    .btnshapeChange {
+        height: 8rem;
+    }
+    .heightFix{
+        height: 12rem;
+
+    }
 
     .bgGradient2 {
         background: rgb(210,3,3);
@@ -812,7 +947,9 @@
       
         height: auto;
     }
-
+    .newsMobile{
+        padding-bottom: 3rem;
+    }
     .banner {
         /* margin-top: 0; */
         z-index: 1;
@@ -907,6 +1044,7 @@
 
     .gray-news-area {
         padding-bottom: 1px;
+        height: auto;
     }
 
     .wbt-area {
@@ -931,6 +1069,15 @@
         margin: 20px 0;
     }
 
+    .bj-btm p {
+        font-size: 14px;
+        color: #ffffff;
+        margin: 0;
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
     .gn-btm2 {
         padding-top: 2rem;
         padding-bottom: 0px;
@@ -945,7 +1092,11 @@
         height: 50px;
     }
 
-    
+    h4.h4Right {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
     .wits-cnt h3 {
         font-size: 17px;
         text-align: justify;
@@ -955,6 +1106,7 @@
         font-size: 25px;
         margin: 0 0 20px;
     }
+
 
     .wits-cnt h5 {
         font-size: 28px;
@@ -967,6 +1119,12 @@
     .wits-btm h2 {
         font-size: 19px;
         line-height: 30px;
+    }
+    .foundyear {
+        
+        font-size: 16px;
+     
+    
     }
 
     .wits-btm h2 img {
@@ -1209,6 +1367,11 @@
         width: 100%;
     }
 
+    .anotherShapeFix{
+        height: 12rem;
+        align-items: baseline;
+    }
+
     .bojj-img {
         width: 100%;
         padding-bottom: 20px;
@@ -1216,7 +1379,9 @@
         margin-bottom: 2rem;
         text-align: center;
     }
-
+    .defenceContent.defenceExpand h4 {
+        margin-top: 3rem;
+    }
     .bojj-left p {
         font-size: 19px;
         margin: 0 0 14px;
@@ -1228,6 +1393,7 @@
     .bojj-img2 {
         margin-top: 0px;
         padding-bottom: 20px;
+        padding-top: 50px;
     }
 
     .bojj-img4 {
@@ -1238,6 +1404,7 @@
     .bojj-img3 {
         margin-top: 0px;
         padding-bottom: 20px;
+        padding-top: 50px;
     }
 
     .bojj-main-img img {
@@ -1277,6 +1444,7 @@
         font-size: 22px;
         margin: 20px 0 0;
         height: 120px;
+        font-size: 16px;
     }
 
     .f-logo {
