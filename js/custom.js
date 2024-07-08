@@ -22,7 +22,7 @@ this.childNodes[1].style.transform='rotate(180deg)';
 
 // collapse text
 
-// var morelessBtn = document.querySelectorAll(".morelessBtn")
+
 const coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -105,7 +105,7 @@ var i;
 
 for (i = 0; i < collapsibleSliderBtn.length; i++) {
 	collapsibleSliderBtn[i].addEventListener("click", function() {
-	console.log(this.childNodes[1].classList);
+	// console.log(this.childNodes[1].classList);
     this.childNodes[1].classList.toggle("rotateArrow");
     var content = this.previousElementSibling;
 	var prevContent= content.previousElementSibling;
@@ -168,16 +168,19 @@ for (i = 0; i < collapsibleSliderBtn.length; i++) {
 	});
 
 
+
+
+
 	$("#owl-csel1").owlCarousel({
 		items: 4,
-		autoplay: true,
+		autoplay:true,
 		autoplayTimeout: 3000,
 		startPosition: 0,
 		rtl: false,
 		loop: true,
 		margin: 15,
 		dots: true,
-		autoplayHoverPause:true,
+		autoplayHoverPause:false,
 		nav: true,
 		navText: [
 					'<i class="fa fa-angle-left" aria-hidden="true"></i>',
@@ -199,52 +202,52 @@ for (i = 0; i < collapsibleSliderBtn.length; i++) {
 	});
 
 
+	// event.stopPropagation(); 
 
-
-
-
-
-
-
-
-
+	let count =0;
 	
+	$('#owl-csel1').on('click', function(e) {
+	
+		count++;
+
+		
+		if(count%2===0){
+			
+			
+			$('.owl-carousel').trigger( 'play.owl.autoplay');
+			
+			
+
+		}else{
+
+			$('.owl-carousel').trigger( 'stop.owl.autoplay');
+
+		
+			
+		}
+		
+		
+	})
+
+	let collapsibleSliderBtn = document.querySelectorAll(".collapsibleSliderBtn");
+	let counts = 0;
+
+	collapsibleSliderBtn.forEach((item)=>{
+		
+		item.addEventListener("click", function(e){
+			e.stopPropagation();
+			counts++;
+	
+			if(counts%2===1){
+				$('.owl-carousel').trigger('stop.owl.autoplay');
+			}else{
+				$('.owl-carousel').trigger('play.owl.autoplay');
+			}
+		})
+		
+	});
+
 })(jQuery); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $('.moreless-button').click(function() {
-// 	$('.moretext').slideToggle();
-// 	$('.moreless-button').hide();
-// });
-
-// $('.moreless-button2').click(function() {
-// 	$('.moretext2').slideToggle();
-// 	$('.moreless-button2').hide();
-// });
-
-// $('.moreless-button3').click(function() {
-// 	$('.moretext3').slideToggle();
-// 	$('.moreless-button3').hide();
-// });
-
 
 
 
