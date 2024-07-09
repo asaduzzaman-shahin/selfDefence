@@ -384,7 +384,7 @@ i.fa-solid.fa-star-half img {
 	font-size: 32px;
 }
 .iconImg {
-    width: 60px!important;
+    width: 100px!important;
 }
 .bj-inner-wrapper {
 	display: grid;
@@ -579,9 +579,12 @@ i.fa-solid.fa-star-half img {
 	height: 5px; 
 	
 	margin: 10px auto 2rem;
+	width: 300px;
 }
 
-
+.greenDot {
+    font-size: 35px;
+}
 
 .wbt-right p {
     font-size: 31px;
@@ -716,22 +719,27 @@ i.fa-solid.fa-star-half img {
 .trob-top p {
     font-size: 29px;
     font-weight: 500;
-    color: #ffffff;
+	color: rgba(255, 255, 255, 1);
     margin: 25px 0;
     width: 90%;
     margin: auto;
 	margin-bottom: 2rem;
     margin-top: 2rem;
+	font-size: 26px;
+	margin-bottom: 3rem;
+    margin-top: 3rem;
 	
 }
 
 .trob-top h3 {
-    font-size: 26px;
+    font-size: 29px;
     font-weight: 700;
     color: #ffffff;
     margin: 15px 0 25px;
 	margin-top: 2rem;
     margin-bottom: 5rem;
+	margin-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 .trob-cnt {
@@ -748,15 +756,33 @@ i.fa-solid.fa-star-half img {
 }
 
 .trob-right p {
-	font-size: 14px;
-	font-weight: 600;
-	color: #fff;
-	max-width: 390px;
-	font-size: 19px;
+	font-weight: 500;
+    color: #fff;
+    max-width: 390px;
+    font-size: 17px;
+    line-height: 24px;
 	
+}
+.borderCircle {
+	border: 2px solid white;
+border-radius: 123px;
+
 }
 
 
+.trob-img {
+    width: 112px;
+    height: 154px;
+	height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trob-img img{
+    width: 100%;
+   
+}
 
 .shapeFixing{
 	height: 12rem!important;
