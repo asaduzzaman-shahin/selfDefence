@@ -777,6 +777,9 @@ border-radius: 123px;
     display: flex;
     justify-content: center;
     align-items: center;
+	background: #617968;
+    border-radius: 16px;
+   
 }
 
 .trob-img img{
